@@ -3,7 +3,7 @@ import Container from "./Container";
 
 function Page(props) {
     useEffect(() => {
-        document.title = `${props.title} | Complex App`;
+        document.title = `${props.title} | Mojito App`;
         window.scrollTo(0, 0);
     }, [props.title]);
 
